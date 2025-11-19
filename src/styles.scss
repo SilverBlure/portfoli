@@ -1,4 +1,15 @@
 body{
     margin: 0;
+    background-color: #0A383F;
+    width: 100%;
 }
 
+@font-face {
+    font-family: 'anta';
+    src: url(./assets/fonts/Anta/Anta-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'josefine';
+    src: url(./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
