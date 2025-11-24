@@ -3,7 +3,7 @@ body {
     height: 100vh;
 }
 
-@mixin center{
+@mixin center(){
 display: flex;
         justify-content: center;
         align-items: center;
@@ -24,17 +24,20 @@ section {
         }
 
         >div {
-            @include center;
+            @include center();
+            flex-direction: column;
             >h1 {
                 font-weight: 400;
                 font-family: 'anta';
                 font-size: 88px;
+                margin-bottom: 16px;
             }
 
             >h2 {
                 font-family: 'josefine';
                 font-size: 40px;
-            }
+                margin-top: 16px;
+                }
 
         }
 

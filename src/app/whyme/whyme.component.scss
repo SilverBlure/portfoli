@@ -1,0 +1,33 @@
+div {
+
+    >h1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'anta';
+        font-size: 60px;
+        color: #89BCD9
+    }
+
+    >div {
+        >div {
+            color: #89BCD9;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            >h2 {
+                color: #89BCD9;
+            }
+
+            >h2 {
+                color: whitesmoke;
+            }
+        }
+        >div{
+            
+        }
+
+
+
+    }
+}

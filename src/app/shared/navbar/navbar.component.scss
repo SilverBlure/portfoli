@@ -1,0 +1,34 @@
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    height: 104px;
+    width: 100%;
+    background-color: #89bcd9;
+    @include center;
+    justify-content: space-around
+    
+}
+
+.actionButtonContainer{
+    @include center;
+    width: 50%;
+    font-family: 'josefine';
+    justify-content: space-between;
+    color: #262E34
+}
+
+
+
+.buttonContainer{
+@include    center;
+}
+
+img{
+    width: 58px;
+    height: 72px;
+}
