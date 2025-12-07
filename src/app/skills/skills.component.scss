@@ -5,10 +5,41 @@ div{
         color: #89bcd9;
         font-family: 'anta';
         font-size: 60px;
+        text-align: center;
     }
     >div{
         >div{
         display: grid;
         }
     }
+}
+
+.iconGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    >img{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.skillLearnig{
+    background-image: url(./../../assets/images/Skill_Ellipse.svg);
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 380px;
+    height: 380px;
+    color: whitesmoke;
+    font-family: 'anta';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
 }

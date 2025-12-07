@@ -1,0 +1,15 @@
+
+
+
+
+
+.tab{
+    display: flex;
+    // flex-direction: column;
+    >img{
+        height: 80px;
+        width: 80px;
+    }
+    color: whitesmoke;
+    font-family: 'anta';
+}
