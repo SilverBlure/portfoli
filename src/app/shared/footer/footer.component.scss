@@ -1,0 +1,30 @@
+
+.component{
+    height: 241px;
+    background-color: #89BCD9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    >.legal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    >.logo{
+        >img{
+        width: 72px;
+        height: 72px;
+    }}
+}
+
+
+
+.icons{
+    display: flex;
+    width: 122px;
+    justify-content: space-around;
+    > img{
+    width: 30px;
+    height: 30px;
+    }
+}

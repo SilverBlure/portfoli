@@ -5,11 +5,12 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { WhymeComponent } from "./whyme/whyme.component";
 import { SkillsComponent } from './skills/skills.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeroSectionComponent, NavbarComponent, WhymeComponent, SkillsComponent, MyProjectsComponent],
+  imports: [RouterOutlet, HeroSectionComponent, NavbarComponent, WhymeComponent, SkillsComponent, MyProjectsComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
