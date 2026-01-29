@@ -1,7 +1,31 @@
 
-
+h1{
+        color:#89BCD9 ;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'anta';
+    }
 .projects{
+     
  color:white;
 height: 645px;
+width: 100%;
+display: flex;
+justify-content: center;
 
+   
+    >.tabs{
+        background-color: #0A383F;
+        border-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 248px;
+        height: 98px;
+        color: white;
+        font-size: 31px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        cursor: pointer;
+    }
 }
