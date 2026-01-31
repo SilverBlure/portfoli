@@ -19,4 +19,12 @@ export class MyProjectsComponent {
       {title: 'Pokemon', component: PokemonComponent },
       {title: 'Sharky', component: SharkyComponent },
       ];
+
+
+      activeIndex = 0;
+
+
+  selectProject(index: number) {
+    this.activeIndex = index;
+  }
 }
