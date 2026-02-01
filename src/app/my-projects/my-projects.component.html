@@ -1,7 +1,12 @@
+<h1>My Projects</h1>
+
 <div class="projects">
-  <li 
-  *ngFor="let project of projects; let i = index">
-  {{project.title}}
-</li>
-    
-  <div>
+  <button class="tabs" *ngFor="let project of projects; let i = index" (click)="selectProject(i)"
+    [class.active]="activeIndex === i">
+
+    {{ project.title }}
+  </button>
+</div>
+
+<ng-container *ngComponentOutlet="projects[activeIndex].component">
+</ng-container>

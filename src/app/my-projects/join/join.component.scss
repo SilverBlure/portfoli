@@ -1,0 +1,80 @@
+h2 {
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.rows {
+    display: flex;
+    background-color: #89BCD912;
+    width: 100%;
+    height: 548px;
+}
+
+span {
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+button {
+    width: 132px;
+    height: 48px;
+    border-color: #89BCD9;
+    border-radius: 30px;
+    background-color: #89BCD9;
+    cursor: pointer;
+    font-family: 'josefine';
+    color: #262e34;
+}
+
+.leftRow {
+    width: 50%;
+}
+
+.rightRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+    >.techtree {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >h2 {
+            font-size: 22px;
+             text-align: center;
+        }
+        >.icons {
+            display: flex;
+            align-items: center;
+            width: 164px;
+            height: 36px;
+            // display: flex;
+            justify-content: space-around;
+            >img { 
+                display: flex;
+                align-items: center;
+                height: 36px;
+                width: 36px;
+            }
+        }
+    }
+}
+
+.projectImg{
+    width: 452px;
+    height: 312px;
+}
+
+.btn{
+    width: 292px;
+    height:48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-image: url('./../../../assets/icons/Ellipse 8.svg');
+}
