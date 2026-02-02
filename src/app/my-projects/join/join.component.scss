@@ -28,6 +28,20 @@ button {
 
 .leftRow {
     width: 50%;
+    >div{
+        >div{
+            display: flex;
+            >img{
+                margin: 14px;
+            }
+            >h3{
+                color: whitesmoke;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
 }
 
 .rightRow {
@@ -73,8 +87,4 @@ button {
     height:48px;
     display: flex;
     justify-content: space-between;
-}
-
-ul{
-    list-style-image: url('./../../../assets/icons/Ellipse 8.svg');
 }
