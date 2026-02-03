@@ -6,11 +6,12 @@ import { WhymeComponent } from "./whyme/whyme.component";
 import { SkillsComponent } from './skills/skills.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { TeamplayerComponent } from './teamplayer/teamplayer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeroSectionComponent, NavbarComponent, WhymeComponent, SkillsComponent, MyProjectsComponent, FooterComponent],
+  imports: [RouterOutlet, HeroSectionComponent, NavbarComponent, WhymeComponent, SkillsComponent, MyProjectsComponent, FooterComponent, TeamplayerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

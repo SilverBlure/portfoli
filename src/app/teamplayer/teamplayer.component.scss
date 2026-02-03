@@ -1,0 +1,53 @@
+section {
+
+
+    width: 100%;
+    background-color: #262E34;
+    text-align: center;
+    color:#89BCD9;
+
+    >.cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        >.card {
+            background-image: url(./../../assets/icons/buredShape.svg);
+            background-repeat: no-repeat;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            >div {
+                 >h2 {
+                color: whitesmoke;
+                font-size: 25px;
+                font-family: 'josefine';
+                margin-bottom: 4px;
+            }
+                >div {
+                    >span {
+                        color: white;
+                    }
+                    >a {
+                        color: #89BCD9;
+                    }
+                }
+            }
+            p {
+                color: whitesmoke;
+                font-family: 'josefine';
+                font-size: 18px;
+
+            }
+
+            a {
+                color: #89BCD9;
+                font-family: 'josefine';
+                font-size: 16px;
+                text-decoration: underline;
+            }
+        }
+    }
+}

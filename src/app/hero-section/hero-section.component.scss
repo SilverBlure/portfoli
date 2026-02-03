@@ -26,6 +26,10 @@ section {
         >div {
             @include center();
             flex-direction: column;
+            >.logo{
+                width: 66px;
+                height: 76px;
+            }
             >h1 {
                 font-weight: 400;
                 font-family: 'anta';
