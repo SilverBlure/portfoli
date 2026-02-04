@@ -1,0 +1,97 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >div {
+        display: flex;
+        width: 910px;
+        justify-content: space-between;
+
+        >h2 {
+            font-size: 52px;
+            font-family: 'anta';
+            font-weight: 400;
+        }
+
+        >.text {
+            display: flex;
+
+            >p {
+                font-size: 18;
+                color: whitesmoke;
+                width: 429px;
+                height: 124py;
+            }
+        }
+
+        >.contact {
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            >.email {
+                display: flex;
+                align-items: center;
+
+                >img {
+                    width: 36px;
+                    height: 30px;
+                }
+            }
+
+            >.phone {
+                display: flex;
+                align-items: center;
+
+                >img {
+                    width: 26px;
+                    height: 31px;
+
+                }
+            }
+        }
+    }
+
+    .formular {
+        display: flex;
+        flex-direction: column;
+
+        >.dates {
+            display: flex;
+
+            >img {
+                width: 445px;
+                height: 80px;
+            }
+
+        }
+    }
+
+    .agbSec {
+        height: 80px;
+
+        >.agbCheck {
+            display: flex;
+            align-items: flex-start;
+
+            .align {
+                display: flex;
+                align-items: center;
+                >a {
+                    margin: 6px;
+                }
+
+                >p {
+                    color: whitesmoke;
+                }
+            }
+        }
+        .agbBtn{
+            display: flex;
+            align-items: end;
+        }
+    }
+
+}
