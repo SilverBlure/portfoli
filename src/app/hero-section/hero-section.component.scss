@@ -13,18 +13,20 @@ body {
 section {
     >div {
         @include center();
-
+            
         >.bgImage {
-            background-image: url('./../../assets/images/BG shape.svg');
-            height: 616px;
-            width: 680px;
+            background-image: url('./../../assets/baseShapesHeroSec/lightShape.svg');
+            height: 710px;
+            width: 50%;
+            background-size: 594px 710px;
+            background-repeat: no-repeat;
 
 
             >img {}
         }
-        >.bgImage:hover{
-            background-image: none
-        }
+         >.bgImage:hover{
+             background-image: url('./../../assets/baseShapesHeroSec/darkShape.svg')
+            }
 
         >div {
             @include center();
