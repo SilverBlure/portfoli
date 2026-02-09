@@ -3,10 +3,10 @@ body {
     height: 100vh;
 }
 
-@mixin center(){
-display: flex;
-        justify-content: center;
-        align-items: center;
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -14,22 +14,27 @@ section {
     >div {
         @include center();
 
-        >div {
-            >img {
-                height: 616px;
-                width: 680px;
-            }
+        >.bgImage {
+            background-image: url('./../../assets/images/BG shape.svg');
+            height: 616px;
+            width: 680px;
+
 
             >img {}
+        }
+        >.bgImage:hover{
+            background-image: none
         }
 
         >div {
             @include center();
             flex-direction: column;
-            >.logo{
+
+            >.logo {
                 width: 66px;
                 height: 76px;
             }
+
             >h1 {
                 font-weight: 400;
                 font-family: 'anta';
@@ -41,7 +46,7 @@ section {
                 font-family: 'josefine';
                 font-size: 40px;
                 margin-top: 16px;
-                }
+            }
 
         }
 
@@ -55,4 +60,3 @@ h1,
 h2 {
     color: whitesmoke;
 }
-

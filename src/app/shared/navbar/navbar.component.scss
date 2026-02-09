@@ -10,7 +10,9 @@
     width: 100%;
     background-color: #89bcd9;
     @include center;
-    justify-content: space-around
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
     
 }
 
