@@ -24,7 +24,7 @@
 
     </div>
     <div class="buttonContainer">
-        <button>DE</button>
-        <button disabled>EN</button>
+        <button [class.active]="languageButton === 'ger'">DE</button>
+        <button [class.active]="languageButton === 'en'">EN</button>
     </div>
 </div>

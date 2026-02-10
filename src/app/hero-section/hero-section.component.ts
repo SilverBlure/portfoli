@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class HeroSectionComponent {
 
+
+  languageButton :  'eng' | 'ger' = 'ger';
+
 }
