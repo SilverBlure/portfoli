@@ -1,11 +1,10 @@
-
-@mixin center{
+@mixin center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navbar{
+.navbar {
     height: 104px;
     width: 100%;
     background-color: #89bcd9;
@@ -13,24 +12,51 @@
     justify-content: space-around;
     position: sticky;
     top: 0;
-    
+
 }
 
-.actionButtonContainer{
+.actionButtonContainer {
     @include center;
     width: 50%;
     font-family: 'josefine';
+    font-size: 26px;
     justify-content: space-between;
-    color: #262E34
+    color: #262E34;
+
+    >div {
+        :hover {
+            color: whitesmoke;
+        }
+    }
 }
 
 
 
-.buttonContainer{
-@include    center;
+
+.buttonContainer {
+    width: 92px;
+    height: 31px;
+    @include center;
+    >button{
+        font-family: 'josefine';
+        font-size: 24px;
+    background-color: transparent;
+    border: none;
+    }
+    >button:hover{
+        color: whitesmoke;
+    }
 }
 
-img{
+img {
     width: 58px;
     height: 72px;
+}
+
+.backgroundimg{
+    background-image: url('./../../../assets/navbar/Ellipse\ 24.svg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center center;
+    color: whitesmoke;
 }

@@ -24,7 +24,7 @@
 
     </div>
     <div class="buttonContainer">
-        <button [class.active]="languageButton === 'ger'">DE</button>
-        <button [class.active]="languageButton === 'en'">EN</button>
+        <button [ngClass]="{'backgroundimg': state === 'ger' }" (click)="setLanguageState('ger')">DE</button>
+        <button [ngClass]="{'backgroundimg': state === 'eng' }" (click)="setLanguageState('eng')">EN</button>
     </div>
 </div>
