@@ -10,13 +10,22 @@ import { CommonModule } from '@angular/common';
 })
 export class NavbarComponent {
 
-  state: 'eng' | 'ger' = 'eng'
+  state: 'eng' | 'ger' = 'eng';
+
+  activeElement: 'why' | 'skill' | 'project' | 'contact' | 'none' = 'none';
 
 
-    setLanguageState(pagestate: 'eng' | 'ger'){
-      if( pagestate !=  this.state){
-        this.state = pagestate
-      }
+  setLanguageState(pagestate: 'eng' | 'ger') {
+    if (pagestate != this.state) {
+      this.state = pagestate;
     }
+  }
+
+  setNavbarState(activNavElem: 'why' | 'skill' | 'project' | 'contact' | 'none' ){
+    if(activNavElem != this.activeElement){
+      this.activeElement = activNavElem;
+    }
+
+  }
 
 }

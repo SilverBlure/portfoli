@@ -1,22 +1,25 @@
 <div class="navbar">
     <div>
         <img src="./../../../assets/images/NicolaiÖsterle.svg">
-        
+
     </div>
     <div class="actionButtonContainer">
-        <div><a>
+        <div [ngClass]="{'backgroundimg': activeElement === 'why'}" (click)="setNavbarState('why')">
+            <a>
                 Why me
             </a>
         </div>
-        <div><a>
+        <div [ngClass]="{'backgroundimg': activeElement === 'skill'}" (click)="setNavbarState('skill')">
+            <a>
                 Skills
             </a>
         </div>
-        <div><a>
+        <div [ngClass]="{'backgroundimg': activeElement === 'project'}" (click)="setNavbarState('project')">
+            <a>
                 Projects
             </a>
         </div>
-        <div>
+        <div [ngClass]="{'backgroundimg': activeElement === 'contact'}" (click)="setNavbarState('contact')">
             <a>
                 Contact
             </a>
