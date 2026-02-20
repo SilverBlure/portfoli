@@ -6,4 +6,12 @@ import { Injectable } from '@angular/core';
 export class LanguageServiceService {
 
   constructor() { }
+
+
+  setLanguage(pagestate: 'eng' | 'ger'){
+
+    return console.log("der gesammte inhalt wird auf ", pagestate, "gestellt!")
+
+  }
+
 }
