@@ -5,11 +5,10 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-my-projects',
-  standalone: true,
-  imports: [CommonModule, SharkyComponent, JoinComponent, PokemonComponent],
-  templateUrl: './my-projects.component.html',
-  styleUrl: './my-projects.component.scss'
+    selector: 'app-my-projects',
+    imports: [CommonModule, SharkyComponent, JoinComponent, PokemonComponent],
+    templateUrl: './my-projects.component.html',
+    styleUrl: './my-projects.component.scss'
 })
 export class MyProjectsComponent {
 

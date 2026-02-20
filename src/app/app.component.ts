@@ -9,11 +9,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { TeamplayerComponent } from './teamplayer/teamplayer.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, HeroSectionComponent, NavbarComponent, WhymeComponent, SkillsComponent, MyProjectsComponent, FooterComponent, TeamplayerComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    imports: [RouterOutlet, HeroSectionComponent, NavbarComponent, WhymeComponent, SkillsComponent, MyProjectsComponent, FooterComponent, TeamplayerComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'portfolio';
